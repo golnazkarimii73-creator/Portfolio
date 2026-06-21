@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golnaz Karimi | Selected Architecture Portfolio</title>
+  <meta name="description" content="Selected university portfolio projects by Golnaz Karimi: historic façade survey, point cloud workflow, ReCap, AutoCAD 3D, Agisoft Metashape, Revit and BIM residential design.">
+  <style>
+:root{
+  --bg:#f6f4f1;
+  --paper:#ffffff;
+  --ink:#151515;
+  --muted:#6b6b6b;
+  --line:#d8d3cc;
+  --accent:#303030;
+  --chip:#ece8e1;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.5}
+a{color:inherit}
+header.hero{padding:56px 5vw 34px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff,#f7f4ef)}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-bottom:12px}
+h1{font-size:clamp(34px,6vw,72px);line-height:.98;margin:0 0 16px;font-weight:760;letter-spacing:-.04em;max-width:1100px}
+.hero p{font-size:18px;color:#3d3d3d;max-width:980px;margin:0 0 24px}
+nav.topnav{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--ink);padding:10px 14px;text-decoration:none;border-radius:999px;background:#fff;font-size:14px;font-weight:650;transition:.15s ease}
+.btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(0,0,0,.08)}
+.btn.secondary{border-color:var(--line);color:#333;background:#fafafa}
+main{padding:0 0 80px}
+.project{border-bottom:1px solid var(--line);padding:52px 5vw 72px}
+.project:nth-child(even){background:#fbfaf7}
+.project-head{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr);gap:36px;align-items:start;max-width:1400px;margin:0 auto 32px}
+.project-number{font-size:13px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:10px}
+h2{font-size:clamp(30px,4vw,56px);line-height:1;margin:0 0 14px;letter-spacing:-.035em}
+.project-intro{font-size:17px;color:#333;max-width:760px;margin:0}
+.meta-card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 14px 30px rgba(0,0,0,.04)}
+.meta-grid{display:grid;grid-template-columns:1fr;gap:12px}
+.meta-item{border-bottom:1px solid #eee8df;padding-bottom:10px}
+.meta-item:last-child{border-bottom:none;padding-bottom:0}
+.meta-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:800;margin-bottom:3px}
+.meta-value{font-size:14px;font-weight:600;color:#252525}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0 0}
+.tag{background:var(--chip);border:1px solid #e1dbd3;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700;color:#353535}
+.download-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.hero-note{font-size:13px;color:var(--muted);margin-top:16px}.hero-note code{background:#eee8df;padding:2px 5px;border-radius:5px}
+.separator{max-width:1400px;margin:46px auto 32px;display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:center;color:var(--muted);font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:800}
+.separator:before,.separator:after{content:"";height:1px;background:var(--line)}
+.sheet-list{max-width:1440px;margin:0 auto;display:grid;gap:28px}
+.sheet{background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden;box-shadow:0 16px 36px rgba(0,0,0,.05)}
+.sheet img{display:block;width:100%;height:auto;background:#fff}
+.sheet figcaption{display:flex;justify-content:space-between;gap:18px;align-items:center;border-top:1px solid var(--line);padding:13px 16px;color:#3e3e3e;font-size:13px}
+.sheet figcaption span:first-child{font-weight:800;white-space:nowrap}
+.note{max-width:1400px;margin:0 auto 24px;color:var(--muted);font-size:13px}
+footer{padding:40px 5vw;color:var(--muted);font-size:13px;background:#fff;border-top:1px solid var(--line)}
+@media(max-width:880px){.project-head{grid-template-columns:1fr}.hero{padding-top:38px}.sheet figcaption{display:block}.sheet figcaption span:first-child{display:block;margin-bottom:4px}.project{padding-left:18px;padding-right:18px}header.hero{padding-left:18px;padding-right:18px}}
+@media print{nav.topnav,.download-row{display:none}.project{break-before:page}.sheet{break-inside:avoid;box-shadow:none}body{background:#fff}.project{padding:20px 0}}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="kicker">Selected Academic Portfolio | Historic Survey + Revit BIM</div>
+    <h1>Selected Architecture Portfolio</h1>
+    <p>Two selected university projects presented with clear separation for recruiters: a historic building survey and digital documentation project, followed by a Revit/BIM residential design project. Original sheets and design content are preserved; only the web page structure and project separation have been adjusted.</p>
+    <nav class="topnav">
+      <a class="btn" href="#historic-survey">Project 01 - Historic Survey</a>
+      <a class="btn" href="#revit-bim">Project 02 - Revit / BIM</a>
+      <a class="btn secondary" href="pdfs/Historic_Facade_Survey_Web_Portfolio.pdf" download="Historic_Facade_Survey_Web_Portfolio.pdf">Download Historic Survey PDF</a>
+      <a class="btn secondary" href="pdfs/Revit_BIM_University_Project_Web_Portfolio.pdf" download="Revit_BIM_University_Project_Web_Portfolio.pdf">Download Revit Project PDF</a>
+    </nav>
+    <p class="hero-note">PDF download buttons require the <code>pdfs</code> folder to stay beside this HTML file when hosted or shared as a package.</p>
+  </header>
+  <main>
+
+    <section class="project" id="historic-survey">
+      <div class="project-head">
+        <div>
+          <div class="project-number">Project 01</div>
+          <h2>Historic Façade Survey & Digital Documentation</h2>
+          <p class="project-intro">Survey of a historic façade at CLA Ravenna, University of Bologna. The project documents the workflow from data collection and point cloud processing to photogrammetry, orthomosaic generation, technical drawings, façade restitution and degradation mapping.</p>
+          <div class="tags"><span class="tag">Historic Building Survey</span><span class="tag">Point Cloud</span><span class="tag">ReCap</span><span class="tag">AutoCAD 3D</span><span class="tag">Metashape</span><span class="tag">Orthomosaic</span><span class="tag">Degradation Mapping</span></div>
+        </div>
+        <aside class="meta-card">
+          <div class="meta-grid"><div class="meta-item"><div class="meta-label">Project type</div><div class="meta-value">Historic building survey and digital documentation</div></div><div class="meta-item"><div class="meta-label">Location</div><div class="meta-value">CLA Ravenna, Via Guglielmo Oberdan, Ravenna, Italy</div></div><div class="meta-item"><div class="meta-label">Role</div><div class="meta-value">Survey-to-digital workflow: laser scanner data, point cloud handling, ReCap processing, AutoCAD 3D documentation</div></div><div class="meta-item"><div class="meta-label">Software / tools</div><div class="meta-value">Point cloud, Autodesk ReCap, AutoCAD 3D, Agisoft Metashape</div></div><div class="meta-item"><div class="meta-label">Outputs</div><div class="meta-value">Orthomosaic, technical drawings, survey restitution, façade interpretation, degradation mapping</div></div></div>
+          <div class="download-row">
+            <a class="btn" href="pdfs/Historic_Facade_Survey_Web_Portfolio.pdf" download="Historic_Facade_Survey_Web_Portfolio.pdf">Download PDF</a>
+            <a class="btn secondary" href="#historic-survey-sheets">View sheets</a>
+          </div>
+        </aside>
+      </div>
+      <div class="separator" id="historic-survey-sheets">Original project sheets preserved</div>
+      <p class="note">The sheets below are shown as exported images of the original PDF pages. Their design content and renders have not been altered.</p>
+      <div class="sheet-list">
+        <figure class="sheet" id="historic-survey-sheet-01">
+          <img src="assets/historic_01.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 01" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 01</span><span>Data collection: location, targets, drone images, ideotype drawings, color checker</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-02">
+          <img src="assets/historic_02.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 02" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 02</span><span>Point cloud visualization from the survey process</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-03">
+          <img src="assets/historic_03.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 03" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 03</span><span>Digital photogrammetry workflow in Agisoft Metashape</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-04">
+          <img src="assets/historic_04.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 04" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 04</span><span>Dense cloud, alignment, mesh, texture, scaling and orthomosaic outputs</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-05">
+          <img src="assets/historic_05.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 05" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 05</span><span>Orthomosaic result - façade elevation</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-06">
+          <img src="assets/historic_06.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 06" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 06</span><span>Common problems in photogrammetry: limited photos, edges, scaling, glass and thin objects</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-07">
+          <img src="assets/historic_07.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 07" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 07</span><span>Technical drawings: elevation, plan and section at 1:50</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-08">
+          <img src="assets/historic_08.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 08" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 08</span><span>Survey restitution: remnants and vertical lines of old openings</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-09">
+          <img src="assets/historic_09.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 09" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 09</span><span>Survey restitution: horizontal axes and possible old window openings</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-10">
+          <img src="assets/historic_10.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 10" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 10</span><span>Characterization of changed surfaces and possible façade reconstruction</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-11">
+          <img src="assets/historic_11.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 11" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 11</span><span>Final result: current façade and possible façade interpretation</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-12">
+          <img src="assets/historic_12.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 12" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 12</span><span>Degradation mapping on the façade</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-13">
+          <img src="assets/historic_13.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 13" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 13</span><span>Degradation categories with selected photographic evidence</span></figcaption>
+        </figure>
+        <figure class="sheet" id="historic-survey-sheet-14">
+          <img src="assets/historic_14.jpg" alt="Historic Façade Survey & Digital Documentation - sheet 14" loading="lazy">
+          <figcaption><span>Historic Survey Sheet 14</span><span>Survey restitution final sheet</span></figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="project" id="revit-bim">
+      <div class="project-head">
+        <div>
+          <div class="project-number">Project 02</div>
+          <h2>BIM / Revit Residential University Project</h2>
+          <p class="project-intro">University BIM project for a small residential development composed of three terraced houses. The project is presented through plans, elevations, sections, perspective views, material choices and construction detail stratigraphy.</p>
+          <div class="tags"><span class="tag">Revit</span><span class="tag">BIM</span><span class="tag">Residential Design</span><span class="tag">Technical Drawings</span><span class="tag">Construction Details</span><span class="tag">Material Palette</span><span class="tag">Architectural Visualization</span></div>
+        </div>
+        <aside class="meta-card">
+          <div class="meta-grid"><div class="meta-item"><div class="meta-label">Project type</div><div class="meta-value">University BIM/Revit residential design project</div></div><div class="meta-item"><div class="meta-label">Academic context</div><div class="meta-value">Building Information Modeling (BIM), Academic Year 2025/26</div></div><div class="meta-item"><div class="meta-label">Design content</div><div class="meta-value">Three terraced houses, duplex units, plans, elevations, sections, details and perspectives</div></div><div class="meta-item"><div class="meta-label">Software / tools</div><div class="meta-value">Autodesk Revit / BIM workflow</div></div><div class="meta-item"><div class="meta-label">Outputs</div><div class="meta-value">Presentation sheets, rendered perspectives, technical drawings, construction details, material palette</div></div></div>
+          <div class="download-row">
+            <a class="btn" href="pdfs/Revit_BIM_University_Project_Web_Portfolio.pdf" download="Revit_BIM_University_Project_Web_Portfolio.pdf">Download PDF</a>
+            <a class="btn secondary" href="#revit-bim-sheets">View sheets</a>
+          </div>
+        </aside>
+      </div>
+      <div class="separator" id="revit-bim-sheets">Original project sheets preserved</div>
+      <p class="note">The sheets below are shown as exported images of the original PDF pages. Their design content and renders have not been altered.</p>
+      <div class="sheet-list">
+        <figure class="sheet" id="revit-bim-sheet-01">
+          <img src="assets/revit_01.jpg" alt="BIM / Revit Residential University Project - sheet 01" loading="lazy">
+          <figcaption><span>Revit Project Sheet 01</span><span>Presentation sheet: ground floor, section and north/west elevations</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-02">
+          <img src="assets/revit_02.jpg" alt="BIM / Revit Residential University Project - sheet 02" loading="lazy">
+          <figcaption><span>Revit Project Sheet 02</span><span>Presentation sheet: project description, site plan, first floor and elevations</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-03">
+          <img src="assets/revit_03.jpg" alt="BIM / Revit Residential University Project - sheet 03" loading="lazy">
+          <figcaption><span>Revit Project Sheet 03</span><span>Perspective sheet: exterior terrace and façade render</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-04">
+          <img src="assets/revit_04.jpg" alt="BIM / Revit Residential University Project - sheet 04" loading="lazy">
+          <figcaption><span>Revit Project Sheet 04</span><span>Perspective sheet: exterior view and residential context render</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-05">
+          <img src="assets/revit_05.jpg" alt="BIM / Revit Residential University Project - sheet 05" loading="lazy">
+          <figcaption><span>Revit Project Sheet 05</span><span>Technical presentation: plans, sections and measured drawings</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-06">
+          <img src="assets/revit_06.jpg" alt="BIM / Revit Residential University Project - sheet 06" loading="lazy">
+          <figcaption><span>Revit Project Sheet 06</span><span>Technical presentation: material palette, elevations, perspective and plan</span></figcaption>
+        </figure>
+        <figure class="sheet" id="revit-bim-sheet-07">
+          <img src="assets/revit_07.jpg" alt="BIM / Revit Residential University Project - sheet 07" loading="lazy">
+          <figcaption><span>Revit Project Sheet 07</span><span>Detail drawings: wall, roof, floor and window stratigraphy</span></figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <strong>Portfolio note:</strong> This HTML sample preserves the original project sheet content and renders. It is structured as a web portfolio so a recruiter can quickly understand the project type, role, software, workflow and outputs before viewing the complete sheets.
+  </footer>
+</body>
+</html>
